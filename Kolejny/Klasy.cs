@@ -12,12 +12,16 @@ namespace Kolejny
 
     public class Czlowiek
     {
-        public Czlowiek() // Konstruktor
+        public Czlowiek(string imie_, string nazwisko_, int wiek_) // Konstruktor
         {
+            imie = imie_;
+            nazwisko = nazwisko_;
+            wiek = wiek_;
 
         }
         public string imie = "Nie podano";
         public int wiek = 0;
+        public string nazwisko = "Nie podano";
 
 
     }
