@@ -25,4 +25,18 @@ namespace Kolejny
 
 
     }
+
+    public class Mebel
+    {
+        private int sztuk;
+
+        
+
+        public int Sztuk
+        {
+            get { return sztuk; }
+            set { sztuk = value; }
+        }
+
+    }
 }
